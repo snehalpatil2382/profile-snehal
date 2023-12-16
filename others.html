@@ -5,20 +5,46 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Others</title>
+    <style>
+      body{
+        border: 50px;
+        border-collapse: collapse;
+        margin: 50px;
+        padding: 50px;
+        color: black;
+      }
+      img{
+     border-style:groove;
+     border-collapse: collapse;
+      }
+      .nav{
+        color: darkred;
+      }
+      li{
+        margin: 10px;
+        color:rgb(116, 35, 35)
+      }
+      #name{
+        font:message-box;
+    font-style: revert;
+
+      }
+    </style>
 </head>
 <body>
     <h2>Profile Photo:</h2>
   <img src="assets/Profile.png" alt="Profile photo"></p>
-  <strong>Name:</strong>Rucha Sharma <br>
-  <strong>Mobile:</strong>9253 4567 25 <br>
-  <strong>Email:</strong>ruchasharma@gmail.com <br>
-  <strong>Date of birth:</strong>Feb-19-2005 <br>
-  <strong>Adress:</strong>OM Vrindawan colony,Pune<br>
+  <strong><span class="nav">Name:</span></strong>Rucha Sharma <br>
+  <strong><span class="nav">Mobile:</span></strong>9253 4567 25 <br>
+  <strong><span class="nav">Email:</span></strong>ruchasharma@gmail.com <br>
+  <strong><span class="nav">Date of birth:</span></strong>Feb-19-2005 <br>
+  <strong><span class="nav">Adress:</span></strong>OM Vrindawan colony,Pune<br>
   <details>
     <summary>Family Details</summary>
-      <ul>
+      <ul><span id="name">
         <li>Father name:Tarka Sharma</li>
         <li>Mother name:Manika Sharma</li>
+      </span>
       </ul>
   </details>
 

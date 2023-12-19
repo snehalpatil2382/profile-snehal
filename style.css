@@ -1,0 +1,10 @@
+
+/* Universal selector */
+*{
+    margin:0;
+    padding:0;
+    list-style-type: circle;
+    background-image:url(assets/image.png) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
